@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sleeping.SleepActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_back"
+        android:onClick="onClick"
+        android:text="@string/back" />
+
+    <com.example.tamagochi.sleeping.SwitchButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_switch"
+        android:onClick="onClick"
+    ></com.example.tamagochi.sleeping.SwitchButton>
+
+    <com.example.tamagochi.sleeping.SleepFace
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sleep_face"
+    />
+
+
+
+
+</LinearLayout>
